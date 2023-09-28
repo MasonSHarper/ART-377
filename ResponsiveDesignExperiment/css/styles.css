@@ -1,0 +1,62 @@
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    
+}
+
+.first {
+    font-size: 10px;
+}
+
+.second {
+    font-size: 10px;
+    
+}
+
+.third {
+    font-size: 10px;
+}
+
+
+@media (min-width: 400px) {
+    .container {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 800px) {
+    .second{
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .second {
+        font-size: 60px;
+    }
+}
+
+
+@media (min-width: 1600px) {
+    .second {
+        font-size: 80px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .second {
+        font-size: 100px;
+    }
+}
+
+
