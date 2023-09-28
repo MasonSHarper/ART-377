@@ -1,0 +1,168 @@
+.ingredients {
+    margin-top: 500px;
+    position: relative;
+    float: left;
+    width: 12%;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.burger-box {
+    width: 100%;
+}
+
+.box1, .box2 {
+    width: 50%;
+    float: left;
+}
+
+.top-bread, .bottom-bread {
+    background-color: #c68958;
+    color: #c68958;
+}
+
+.cheese {
+    background-color: yellow;
+    color: yellow;
+}
+
+.onion {
+    background-color: white;
+    border: 10px solid purple;
+    color: white;
+}
+
+.beef {
+    background-color: #68411b;
+    color: #68411b;
+}
+
+.lettuce {
+    background-color: #7b9953;
+    color: #7b9953;
+}
+
+.ketchup {
+    background-color: red;
+    color: red;
+}
+
+@media (max-width: 1600px) {
+    .burger-box {
+        margin: 100px 0;
+    }
+    .bottom-bread {
+        width: 400px;
+        float: none;
+        margin: 0;
+        transition: 0.5s all ease;
+    }
+    .bottom-bread p {
+        position: absolute;
+    }
+    .bottom-bread:hover {
+        background-color: transparent;
+    }
+}
+
+@media (max-width: 1500px) {
+    .ketchup {
+        width: 400px;
+        float: none;
+        margin: 0;
+    }
+    .ketchup p {
+        position: absolute;
+    }
+    .ketchup:hover {
+        background-color: transparent;
+    }
+}
+
+@media (max-width: 1350px) {
+    .lettuce {
+        float: none;
+        margin: 0;
+        width: 400px;
+    }
+    .lettuce p {
+        position: absolute;
+    }
+    .lettuce:hover {
+        background-color: transparent;
+    }
+}
+
+@media (max-width: 1200px) {
+    .beef {
+        width: 400px;
+        float: none;
+        margin: 0;
+    }
+    .beef p {
+        position: absolute;
+    }
+    .beef:hover {
+        background-color: transparent;
+    }
+}
+
+@media (max-width: 1050px) {
+    .onion {
+        width: 380px;
+        float: none;
+        margin: 0;
+    }
+    .onion p {
+        position: absolute;
+    }
+    .onion:hover {
+        background-color: transparent;
+    }
+}
+
+@media (max-width: 900px) {
+    .cheese {
+        width: 400px;
+        float: none;
+        margin: 0;
+    }
+    .cheese p {
+        position: absolute;
+    }
+    .cheese:hover {
+        background-color: transparent;
+    }
+}
+
+@media (max-width: 850px) {
+    .top-bread {
+        width: 400px;
+        float: none;
+        margin: 0;
+    }
+    .top-bread p {
+        position: absolute;
+    }
+    .top-bread:hover {
+        background-color: transparent;
+    }
+}
+
+@media(max-width: 800px) {
+    .box1, .box2 {
+        width: 100%;
+    }
+    .box1, .box2 {
+        background-image: url("images/burger.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+@media(max-width: 700px) {
+    .ingredients {
+        opacity: 0;
+    }
+}
